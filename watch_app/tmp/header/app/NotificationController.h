@@ -1,0 +1,2 @@
+@interface NotificationController : WKUserNotificationInterfaceController
+@end

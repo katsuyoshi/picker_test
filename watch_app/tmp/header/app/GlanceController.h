@@ -1,0 +1,2 @@
+@interface GlanceController : WKInterfaceController
+@end

@@ -1,12 +1,17 @@
 class InterfaceController < WKInterfaceController
 
+  attr_accessor :picker   # IBOutlet WKInterfacePicker
+  attr_accessor :label    # IBOutlet WKInterfaceLabel
+  
+
   def awakeWithContext(context)
     super
 
     # Initialize variables here.
     # Configure interface objects here.
     NSLog("%@ awakeWithContext", self)
-
+    NSLog("picker: #{picker}")
+    NSLog("lable: #{label}")
     self
   end
 

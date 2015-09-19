@@ -1,0 +1,2 @@
+@interface ExtensionDelegate : NSObject
+@end
